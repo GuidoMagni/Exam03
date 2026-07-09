@@ -1,0 +1,2 @@
+def inter(s1: str, s2: str) -> str:
+    
