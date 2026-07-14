@@ -2,7 +2,6 @@ def bracket_validator(s: str) -> bool:
     brackets = {')': '(', ']': '[', '}': '{'}
     open = []
     for c in s:
-        print(open)
         if c in '([{':
             open.append(c)
         elif c in ')]}':
