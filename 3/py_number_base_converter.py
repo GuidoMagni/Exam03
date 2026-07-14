@@ -35,4 +35,5 @@ def number_base_converter(number: str, from_base: int, to_base: int) -> str:
 
     return result
 
+
 print(number_base_converter("G", 16, 10))

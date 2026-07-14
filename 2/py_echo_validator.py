@@ -6,4 +6,5 @@ def echo_validator(text: str) -> bool:
 
     return filtered == filtered[::-1]
 
+
 print(echo_validator("racecar"))

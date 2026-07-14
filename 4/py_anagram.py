@@ -3,6 +3,7 @@ def anagram(s1: str, s2: str) -> bool:
     new_s2 = s2.lower().replace(" ", "")
     return sorted(new_s1) == sorted(new_s2)
 
+
 print(anagram("abc", "abcc"))
 
 # Alternatuve

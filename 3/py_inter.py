@@ -5,4 +5,5 @@ def inter(s1: str, s2: str) -> str:
             result += c
     return result
 
+
 print(inter("hello", "world"))

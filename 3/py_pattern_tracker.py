@@ -10,4 +10,5 @@ def pattern_tracker(text: str) -> int:
             prev = "9"
     return count
 
+
 print(pattern_tracker("112233"))

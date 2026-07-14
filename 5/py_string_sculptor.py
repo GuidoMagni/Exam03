@@ -12,4 +12,5 @@ def string_sculptor(text: str) -> str:
             result.append(char)
     return "".join(result)
 
+
 print(string_sculptor("Hello World"))

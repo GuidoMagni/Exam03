@@ -7,4 +7,5 @@ def shadow_merge(list1: list[int], list2: list[int]) -> list[int]:
     result.sort()
     return result
 
+
 print(shadow_merge([1,1,2], [1,3,3]))

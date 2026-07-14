@@ -10,6 +10,7 @@ def is_rotation(arr1: list, arr2: list) -> bool:
             return True
     return False
 
+
 print(is_rotation([1, 2, 3, 4, 5], [4, 5, 1, 2, 3]))
 
 # def is_rotation(arr1: list, arr2: list) -> bool:
