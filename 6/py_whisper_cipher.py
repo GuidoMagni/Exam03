@@ -9,4 +9,4 @@ def whisper_cipher(text: str, shift: int) -> str:
     return ''.join(result)
 
 
-print(whisper_cipher("abc", -3))
+print(whisper_cipher("Hello World!", -1))
