@@ -1,0 +1,25 @@
+Г‰cris une fonction qui vГ©rifie si une chaГ®ne est un palindrome, en ignorant espaces et casse, et en ne considГ©rant que les caractГЁres alphabГ©tiques pour la comparaison.
+
+def echo_validator(text: str) -> bool:
+
+echo_validator("racecar")
+True
+
+echo_validator("A man a plan a canal Panama")
+True
+
+echo_validator("race a car")
+False
+
+echo_validator("Was it a car or a cat I saw")
+True
+
+echo_validator("hello")
+False
+
+echo_validator("Madam Im Adam")
+True
+
+echo_validator("")
+False
+

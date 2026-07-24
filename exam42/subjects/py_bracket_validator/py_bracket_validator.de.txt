@@ -1,0 +1,35 @@
+Schreibe eine Funktion, die prГјft, ob Klammern in einem String korrekt gepaart und geschachtelt sind.
+UnterstГјtze drei Arten: (), [], {}.
+
+Die Funktion soll:
+- True zurГјckgeben, wenn alle Klammern korrekt gepaart sind
+- True fГјr Strings ohne Klammern zurГјckgeben
+- False bei nicht passenden oder falsch geschachtelten Klammern zurГјckgeben
+- Zeichen auГџerhalb von Klammern ignorieren
+
+def bracket_validator(s: str) -> bool:
+
+bracket_validator("()")
+True
+
+bracket_validator("()[]{}")
+True
+
+bracket_validator("(]")
+False
+
+bracket_validator("([)]")
+False
+
+bracket_validator("{[]}")
+True
+
+bracket_validator("hello(world)")
+True
+
+bracket_validator("((())")
+False
+
+bracket_validator("")
+True
+

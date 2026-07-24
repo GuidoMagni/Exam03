@@ -1,0 +1,19 @@
+Г‰cris une fonction qui transforme une chaГ®ne en alternant la casse des seuls caractГЁres alphabГ©tiques. Les autres caractГЁres restent inchangГ©s et ne comptent pas pour lвЂ™alternance. Le premier caractГЁre alphabГ©tique doit ГЄtre en minuscule, le second en majuscule, le troisiГЁme en minuscule, etc.
+
+def string_sculptor(text: str) -> str:
+
+string_sculptor("hello")
+"hElLo"
+
+string_sculptor("Hello World")
+"hElLo wOrLd"
+
+string_sculptor("abc123def")
+"aBc123DeF"
+
+string_sculptor("Python3.9!")
+"pYtHoN3.9!"
+
+string_sculptor("")
+""
+

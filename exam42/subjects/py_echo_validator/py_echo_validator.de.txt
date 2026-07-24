@@ -1,0 +1,25 @@
+Schreibe eine Funktion, die prГјft, ob ein String ein Palindrom ist - Leerzeichen und GroГџ-/Kleinschreibung ignorieren; nur alphabetische Zeichen fГјr den Vergleich berГјcksichtigen.
+
+def echo_validator(text: str) -> bool:
+
+echo_validator("racecar")
+True
+
+echo_validator("A man a plan a canal Panama")
+True
+
+echo_validator("race a car")
+False
+
+echo_validator("Was it a car or a cat I saw")
+True
+
+echo_validator("hello")
+False
+
+echo_validator("Madam Im Adam")
+True
+
+echo_validator("")
+False
+

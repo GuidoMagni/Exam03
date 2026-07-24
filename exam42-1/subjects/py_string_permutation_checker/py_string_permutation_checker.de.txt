@@ -1,0 +1,36 @@
+Schreibe eine Funktion, die feststellt, ob zwei Strings Permutationen voneinander sind.
+Zwei Strings sind Permutationen, wenn sie dieselben Zeichen mit denselben HГ¤ufigkeiten enthalten.
+
+Die Funktion soll:
+- PrГјfen, ob beide Strings genau dieselben Zeichen enthalten
+- ZeichenhГ¤ufigkeiten zГ¤hlen (groГџ-/kleinschreibungssensitiv)
+- True zurГјckgeben, wenn es Permutationen sind, sonst False
+- Leere Strings behandeln (zwei leere Strings sind Permutationen)
+- Leerzeichen und Satzzeichen wie normale Zeichen behandeln
+
+def string_permutation_checker(s1: str, s2: str) -> bool:
+
+string_permutation_checker("abc", "bca")
+True
+
+string_permutation_checker("abc", "def")
+False
+
+string_permutation_checker("listen", "silent")
+True
+
+string_permutation_checker("hello", "bello")
+False
+
+string_permutation_checker("", "")
+True
+
+string_permutation_checker("a", "")
+False
+
+string_permutation_checker("Abc", "abc")
+False
+
+string_permutation_checker("a gentleman","elegant man")
+True
+

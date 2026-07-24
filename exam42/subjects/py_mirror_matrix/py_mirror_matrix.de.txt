@@ -1,0 +1,26 @@
+Schreibe eine Funktion, die eine 2D-Matrix horizontal spiegelt, indem jede Zeile umgekehrt wird.
+
+Die Funktion soll:
+- Eine 2D-Liste (Matrix) aus ganzen Zahlen als Eingabe nehmen
+- Eine neue 2D-Liste zurГјckgeben, in der jede Zeile horizontal umgekehrt ist
+- Matrizen beliebiger GrГ¶Гџe (quadratisch oder rechteckig) verarbeiten
+- Die ursprГјngliche Zeilenreihenfolge beibehalten
+- Die ursprГјngliche Matrix nicht verГ¤ndern
+
+def mirror_matrix(matrix: list[list[int]]) -> list[list[int]]:
+
+mirror_matrix([[1,2,3],[4,5,6]])
+[[3,2,1],[6,5,4]]
+
+mirror_matrix([[1,2],[3,4],[5,6]])
+[[2,1],[4,3],[6,5]]
+
+mirror_matrix([[7]])
+[[7]]
+
+mirror_matrix([[1,2,3,4]])
+[[4,3,2,1]]
+
+mirror_matrix([[-1,-2],[-3,-4]])
+[[-2,-1],[-4,-3]]
+

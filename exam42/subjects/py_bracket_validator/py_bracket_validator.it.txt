@@ -1,0 +1,35 @@
+Scrivi una funzione che verifichi se le parentesi in una stringa sono accoppiate e annidate correttamente.
+Supporta tre tipi: (), [], {}.
+
+La funzione deve:
+- Restituire True se tutte le parentesi sono corrette
+- Restituire True per stringhe senza parentesi
+- Restituire False se mancano coppie o lвЂ™annidamento ГЁ errato
+- Ignorare i caratteri che non sono parentesi
+
+def bracket_validator(s: str) -> bool:
+
+bracket_validator("()")
+True
+
+bracket_validator("()[]{}")
+True
+
+bracket_validator("(]")
+False
+
+bracket_validator("([)]")
+False
+
+bracket_validator("{[]}")
+True
+
+bracket_validator("hello(world)")
+True
+
+bracket_validator("((())")
+False
+
+bracket_validator("")
+True
+

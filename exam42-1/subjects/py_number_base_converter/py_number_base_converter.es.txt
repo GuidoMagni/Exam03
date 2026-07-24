@@ -1,0 +1,29 @@
+Escribe una funciГіn que convierta un nГєmero de una base a otra.
+Admite bases de 2 a 36 inclusive, usando dГ­gitos 0-9 y letras A-Z para los valores 10-35. Devuelve "ERROR" si la entrada no es vГЎlida (base, dГ­gitos).
+
+def number_base_converter(number: str, from_base: int, to_base: int) -> str:
+
+number_base_converter("1010", 2, 10)
+"10"
+
+number_base_converter("FF", 16, 10)
+"255"
+
+number_base_converter("255", 10, 16)
+"FF"
+
+number_base_converter("123", 10, 2)
+"1111011"
+
+number_base_converter("Z", 36, 10)
+"35"
+
+number_base_converter("35", 10, 36)
+"Z"
+
+number_base_converter("123", 1, 10)
+"ERROR"
+
+number_base_converter("G", 16, 10)
+"ERROR"
+

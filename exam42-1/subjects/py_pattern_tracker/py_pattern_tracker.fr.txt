@@ -1,0 +1,25 @@
+Г‰cris une fonction qui compte le nombre de paires de chiffres consГ©cutifs valides dans une chaГ®ne. Une paire valide est formГ©e de deux chiffres adjacents dont le second vaut exactement un de plus que le premier. Un 9 suivi dвЂ™un 0 nвЂ™est PAS une paire valide.
+
+def pattern_tracker(text: str) -> int:
+
+pattern_tracker("123")
+2
+
+pattern_tracker("12a34")
+2
+
+pattern_tracker("987654321")
+0
+
+pattern_tracker("01234567")
+7
+
+pattern_tracker("abc")
+0
+
+pattern_tracker("1a2b3c4")
+0
+
+pattern_tracker("112233")
+2
+

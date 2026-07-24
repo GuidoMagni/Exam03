@@ -1,0 +1,35 @@
+Escribe una funciГіn que compruebe si los parГ©ntesis de una cadena estГЎn bien emparejados y anidados.
+Admite tres tipos: (), [], {}.
+
+La funciГіn debe:
+- Devolver True si todos los parГ©ntesis estГЎn bien emparejados
+- Devolver True si la cadena no tiene parГ©ntesis
+- Devolver False si faltan pares o el anidamiento es incorrecto
+- Ignorar caracteres que no sean parГ©ntesis
+
+def bracket_validator(s: str) -> bool:
+
+bracket_validator("()")
+True
+
+bracket_validator("()[]{}")
+True
+
+bracket_validator("(]")
+False
+
+bracket_validator("([)]")
+False
+
+bracket_validator("{[]}")
+True
+
+bracket_validator("hello(world)")
+True
+
+bracket_validator("((())")
+False
+
+bracket_validator("")
+True
+

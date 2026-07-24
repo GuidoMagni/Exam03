@@ -1,0 +1,36 @@
+Г‰cris une fonction qui dГ©termine si deux chaГ®nes sont des permutations lвЂ™une de lвЂ™autre.
+Deux chaГ®nes sont des permutations si elles contiennent les mГЄmes caractГЁres avec les mГЄmes frГ©quences.
+
+La fonction doit :
+- VГ©rifier que les deux chaГ®nes contiennent exactement les mГЄmes caractГЁres
+- Compter les frГ©quences (sensible Г  la casse)
+- Retourner True si ce sont des permutations, sinon False
+- GГ©rer les chaГ®nes vides (deux chaГ®nes vides sont des permutations)
+- Traiter espaces et ponctuation comme des caractГЁres normaux
+
+def string_permutation_checker(s1: str, s2: str) -> bool:
+
+string_permutation_checker("abc", "bca")
+True
+
+string_permutation_checker("abc", "def")
+False
+
+string_permutation_checker("listen", "silent")
+True
+
+string_permutation_checker("hello", "bello")
+False
+
+string_permutation_checker("", "")
+True
+
+string_permutation_checker("a", "")
+False
+
+string_permutation_checker("Abc", "abc")
+False
+
+string_permutation_checker("a gentleman","elegant man")
+True
+

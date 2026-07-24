@@ -12,6 +12,3 @@ def number_base_converter(number: str, from_base: int, to_base: int) -> str:
         value = value // to_base
         result = digits[rem] + result
     return result
-
-
-print(number_base_converter("G", 16, 10))

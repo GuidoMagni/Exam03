@@ -1,0 +1,35 @@
+Г‰cris une fonction qui vГ©rifie si les parenthГЁses dвЂ™une chaГ®ne sont correctement appariГ©es et imbriquГ©es.
+Prends en charge trois types : (), [], {}.
+
+La fonction doit :
+- Retourner True si toutes les parenthГЁses sont correctement appariГ©es
+- Retourner True pour les chaГ®nes sans aucune parenthГЁse
+- Retourner False si elles ne correspondent pas ou sont mal imbriquГ©es
+- Ignorer les caractГЁres qui ne sont pas des parenthГЁses
+
+def bracket_validator(s: str) -> bool:
+
+bracket_validator("()")
+True
+
+bracket_validator("()[]{}")
+True
+
+bracket_validator("(]")
+False
+
+bracket_validator("([)]")
+False
+
+bracket_validator("{[]}")
+True
+
+bracket_validator("hello(world)")
+True
+
+bracket_validator("((())")
+False
+
+bracket_validator("")
+True
+

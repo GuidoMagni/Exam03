@@ -1,0 +1,25 @@
+Schreibe eine Funktion, die die Anzahl gГјltiger aufeinanderfolgender Ziffernpaare in einem String zГ¤hlt. Ein gГјltiges Paar besteht aus zwei benachbarten Ziffern, bei denen die zweite genau um eins grГ¶Гџer ist als die erste. Eine 9 gefolgt von 0 ist KEIN gГјltiges Paar.
+
+def pattern_tracker(text: str) -> int:
+
+pattern_tracker("123")
+2
+
+pattern_tracker("12a34")
+2
+
+pattern_tracker("987654321")
+0
+
+pattern_tracker("01234567")
+7
+
+pattern_tracker("abc")
+0
+
+pattern_tracker("1a2b3c4")
+0
+
+pattern_tracker("112233")
+2
+

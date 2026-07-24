@@ -1,0 +1,25 @@
+Escribe una funciГіn que cuente cuГЎntos pares consecutivos de dГ­gitos vГЎlidos hay en una cadena. Un par vГЎlido son dos dГ­gitos adyacentes donde el segundo es exactamente uno mayor que el primero. Un 9 seguido de 0 NO es un par vГЎlido.
+
+def pattern_tracker(text: str) -> int:
+
+pattern_tracker("123")
+2
+
+pattern_tracker("12a34")
+2
+
+pattern_tracker("987654321")
+0
+
+pattern_tracker("01234567")
+7
+
+pattern_tracker("abc")
+0
+
+pattern_tracker("1a2b3c4")
+0
+
+pattern_tracker("112233")
+2
+
